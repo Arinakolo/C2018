@@ -1,4 +1,4 @@
-python
+
 def count_vowels(bykvu):
     vowels = ['a', 'i', 'u', 'e', 'o']
     count = 0

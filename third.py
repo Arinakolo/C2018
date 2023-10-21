@@ -1,4 +1,4 @@
-python
+
 def factorial(numn):
     if numn < 0:
         return None
