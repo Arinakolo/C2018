@@ -24,7 +24,7 @@ class Zoo:
 
 
 fish = Zoo("риба",  can_swim=True)
-crocodile = Zoo("лев", can_swim=True )
+crocodile = Zoo("крокодил", can_swim=True )
 bird = Zoo("птах", can_fly=True)
 turtle = Zoo("черепаха", can_swim=True)
 
