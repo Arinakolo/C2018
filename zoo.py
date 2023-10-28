@@ -33,5 +33,5 @@ crocodile.swim()
 bird.fly()
 turtle.swim()
 
-print(f"назва зоопарку: {Zoo.zoo_name}")
-print(f"загальна кількість тварин: {Zoo.total_animals}")
+print(f"Назва зоопарку: {Zoo.zoo_name}")
+print(f"Загальна кількість тварин: {Zoo.total_animals}")
