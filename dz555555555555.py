@@ -1,6 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
+import openpyxl
 
+book = openpyxl.Workbook
+
+count = 2
 def chto_to(url):
     response = requests.get(url)
     soup =  BeautifulSoup(response.text,'html.parser')
@@ -16,3 +20,12 @@ def chto_to(url):
 for page in range(1, 10):
     url = f'https://cash-backer.club/shops?page={page}'
     chto_to(url)
+
+
+
+    sheet = book.active
+    sheet['A1'] = "Title company"
+    sheet['A1'] = "Procent cashback"
+    book.save("Catalog.xlsx")
+
+    book.close()
